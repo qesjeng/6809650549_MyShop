@@ -178,6 +178,7 @@ h2 {
     background: #f5f5f5;}
 p {
   font-family: Schibsted Grotesk;
+    font-weight: bold;
 }
 h3 {
   font-family: Schibsted Grotesk;
@@ -269,4 +270,46 @@ video {
 }
 h1 a { 
     text-decoration: none; color: brown;
+}
+.button-row { 
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+    gap: 20px; 
+    margin-bottom: 50px; 
+    flex-wrap: wrap; 
+} 
+.btn-card { 
+    background: #fff; 
+    border-radius: 12px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+    width: 260px; 
+    height: 425px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 20px 10px 10px 10px; 
+    box-sizing: border-box; 
+    border: none; 
+    cursor: pointer; 
+} 
+.btn-card img { 
+    width: 100%; 
+    height: 210px; 
+    object-fit: contain; 
+    margin-bottom: 10px; 
+    border-radius: 8px; 
+    background: #f5f5f5; 
+} 
+.buy-now { 
+    margin-top: 15px; 
+    padding: 8px 16px; 
+    background-color: #007BFF; 
+    color: white; 
+    border-radius: 8px; 
+    font-weight: bold; 
+} 
+.buy-now:hover { 
+    background-color: #0056b3; 
 }
